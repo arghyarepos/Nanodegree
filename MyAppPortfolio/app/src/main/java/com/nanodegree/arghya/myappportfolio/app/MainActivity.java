@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         String toastString = String.format(getResources().getString(R.string.string_toast),
                 getResources().getString(movieNameID).toLowerCase());
-        
 
         if (mToast != null) {
             mToast.cancel();
